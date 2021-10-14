@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	font-size: calc(14px + 0.2vw);
+}
+
+body {
+	@apply font-main leading-6 bg-bg text-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-bold mb-5;
+}
+
+p {
+	@apply mb-3 text-white text-opacity-80;
+}
+
+a {
+	@apply text-blue-500 hover:underline;
+}
+
+#tsparticles {
+	@apply h-screen;
+}
